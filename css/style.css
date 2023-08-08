@@ -1,0 +1,22 @@
+/* ---------------------------------------------------
+    CSS
+----------------------------------------------------- */
+body{
+  background-color: rgb(173, 171, 171);
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.box{
+  background-color: white;
+  width:600px;
+  margin:0 auto;
+  border:1px solid #ccc;
+  border-radius: 12px;
+}
+
+#age{
+  pointer-events: none !important;
+}
