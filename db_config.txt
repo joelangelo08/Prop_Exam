@@ -1,0 +1,4 @@
+My SQL
+
+database: propelrr
+table name: users
