@@ -149,8 +149,7 @@
             gender: gender
           },
           success: function(response) {
-            // alert(response);
-            return response;        
+            alert("Data Saved Successfully");
           }
         });
       }

@@ -2,8 +2,6 @@
   include('includes/header.php');
   include('db/conn.php');
 
-  echo '<script>alert("Data Saved Successfully")</script>';
-
   $fullName = $_POST['fullName'];
   $email = $_POST['email'];
   $mobileNum = $_POST['mobileNum'];
@@ -16,5 +14,8 @@
           VALUES (null,' $fullName','$email','$mobileNum','$birthDate','$age','$gender')";
   $result = mysqli_query($conn, $sql);
 
+  echo "<script type='text/javascript'>
+    window.top.location='welcome.php?success=Comment has been added';
+  </script>"; 
   }
 ?>

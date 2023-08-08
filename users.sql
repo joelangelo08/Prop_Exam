@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 08, 2023 at 02:11 PM
+-- Generation Time: Aug 08, 2023 at 02:43 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.3.26
 
@@ -45,7 +45,12 @@ INSERT INTO `users` (`id`, `fullName`, `email`, `mobileNum`, `birthDate`, `age`,
 (1, ' Joel Angelo T. Milañez', 'joelangelo.milanez@gmail.com', '09460183673', '1999-05-31', 24, 'Male'),
 (2, ' Milañez, Joel Angelo T.', 'joelangelo.milanez@gmail.com', '09460183673', '1999-05-31', 24, 'Male'),
 (3, ' John Doe', 'johndoe@gmail.com', '09111111111', '1996-07-24', 27, 'Male'),
-(4, ' Mary Curry', 'mary_curry@gmail.com', '09222222222', '1992-10-06', 30, 'Female');
+(4, ' Mary Curry', 'mary_curry@gmail.com', '09222222222', '1992-10-06', 30, 'Female'),
+(5, ' Test Name', 'testname@gmail.com', '09333333333', '1998-06-30', 25, 'Female'),
+(6, ' Second Test', 'secondtest@gmail.com', '09444444444', '1995-08-02', 28, 'Female'),
+(7, ' Third Test', 'thirdtest@gmail.com', '09555555555', '1998-02-24', 25, 'Female'),
+(8, ' Fourth Test', 'fourthtest@gmail.com', '09666666666', '1994-12-14', 28, 'Female'),
+(9, ' Fifth Test', 'fifthtest@gmail.com', '09777777777', '1991-09-19', 31, 'Female');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +70,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
